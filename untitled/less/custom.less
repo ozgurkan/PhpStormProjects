@@ -1,0 +1,84 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, tt, var,input,textarea,select,button,
+center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+:focus{outline: 0}
+
+
+#container{width: 960px;height:auto;margin: 0 auto}
+header{background-color:#E74C3C;width:960px;height:100px;
+  img{margin: 0 auto;float: left}
+  h2{float: left;color:#fff;font-weight: bold;font-size: 40px;padding-top: 25px}
+}
+nav{
+  background-color:#fff;width: 960px;height:45px;border-bottom: 5px solid indianred;
+  ul{border-right:1px solid darkgray ;width: 290px;height: 45px;
+    li{
+        float: left;border-left: 1px solid darkgray;padding:10px;
+        a{
+          font-size: 25px;font-weight: bold;
+        }
+      &:hover{background-color: #ff4e1d;}
+      &:hover>a{color: #fff}
+    }
+  }
+}
+main{width: 660px;height:550px;float: left;
+  h1{color: grey;font-family: jing jing;font-size:100px;padding: 50px 100px;text-align: center}
+  p{font-weight: bold;font-size: 25px;text-align: center}
+}
+aside{width: 300px;height: 500px;float: right;}
+footer{clear: both;width:960px;height: 70px;
+  a{width: 64px;height:64px;
+    img{width:64px;height: 64px;opacity: 0.5;
+      &:hover{opacity: 1.5}
+    }
+  }
+}
+
+/*
+&:hover{}
+*/
