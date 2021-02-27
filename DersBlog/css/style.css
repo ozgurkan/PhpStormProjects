@@ -1,0 +1,110 @@
+#container{display: block;display: -webkit-flex;display: flex;width:100%;height: auto;background-color: aqua}
+
+#sol_alan{position: fixed;height:100%;float: left}
+    #sol_alan #sol_ust{height: 25%;}
+        #sol_alan #sol_ust #baslik{padding:5px;height:40%;background-color: blue;}
+            #sol_alan #sol_ust img{float: left;}
+            #sol_alan #sol_ust h1{padding: 5px;color:white;font-family: "Arial Black";float: left;text-align:center;}
+
+            /*Başlık Alanı Kaydırma*/
+            #sol_alan #sol_ust #baslik, #sol_alan #sol_alt ul li{
+                position: relative;
+                -webkit-animation-name: baslik; /* Safari 4.0 - 8.0 */
+                -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+                animation-name:baslik;
+            }
+            /* Safari 4.0 - 8.0 */
+            @-webkit-keyframes baslik {
+                0%   {opacity: 0.1; left:-300px;}
+                100% {opacity: 1;left:0px;}
+            }
+
+            /* Standard syntax */
+            @keyframes baslik {
+                0%   {opacity: 0.1; left:-300px;}
+                100% {;opacity: 1;left:0px;}
+            }
+
+        #sol_alan #sol_ust #navigasyon{height: 60%;background-color:whitesmoke}
+            #sol_alan #sol_ust #navigasyon ul{height: 60%;float: left}
+                #sol_alan #sol_ust #navigasyon ul li{width: 30%;float: left ;margin-left:7px;}
+                    #sol_alan #sol_ust #navigasyon ul li a{text-align: center;font-size: 15px}
+                        #sol_alan #sol_ust #navigasyon ul li a img{padding-left: 10px;padding-top: 5px;max-width: 40px;max-height: 40px}
+
+        /*Navigasyon Kaydırma*/
+        #sol_alan #sol_ust #navigasyon ul li {
+            position: relative;
+            -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+            animation-name: example;
+
+        }
+
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes example {
+            0%   {opacity: 0.1;left:0px; top:-200px;}
+            50%  {opacity: 0.5;top:0px;}
+            100% {opacity: 1;top:0px;}
+        }
+
+        /* Standard syntax */
+        @keyframes example {
+            0%   {opacity: 0.1;left:0px; top:-200px;}
+            50%  {opacity: 0.5;top:0px;}
+            100% {opacity: 1;top:0px;}
+        }
+    #sol_alan #sol_alt{width: 300px;height: 574px;}
+        #sol_alan #sol_alt h1{text-align: center;font-size: 30px;font-weight: bold;color: white}
+        #sol_alan #sol_alt ul{}
+        #sol_alan #sol_alt ul li{ margin: 5px;width:290px;height: 50px;background-color: #95a5a6 }
+
+
+
+
+
+
+#orta_alan{float: left;margin-left:300px;background-color:whitesmoke;width: 1150px;height: auto;}
+    #orta_alan_ust{background-color: white;with:1150px;height: 50px; border-bottom-color: black;border-bottom: solid;}
+    #orta_alan_alt{float: left;width: 1150px;height: auto;}
+        #orta_alan_alt ul{}
+            #orta_alan_alt ul li{float: left;width:500px;height: 300px;margin: 25px;background-color: white;}
+            .bordershadow:hover {
+                box-shadow: 0 0 6px  rgba(35, 173, 278, 1);
+            }
+
+.button {
+    border-radius: 8px;background-color: #4CAF50; color: white;
+    border: none;padding: 15px 32px; text-align: center;text-decoration: none;
+    font-size: 16px;float: right;
+    display: inline-block;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+#sag_alan{float: left;background-color:#ff1839;width:70px;height: 1000px;}
