@@ -1,0 +1,320 @@
+body {
+  background-color: #fafad2;
+}
+#container {
+  width: 960px;
+  height: auto;
+  margin: 0px auto;
+}
+#container header {
+  width: 960px;
+  height: 100px;
+  background-color: tan;
+}
+#container header #logo {
+  float: left;
+  width: 300px;
+  height: 100px;
+}
+#container header nav {
+  float: left;
+  width: 460px;
+  height: 50px;
+  margin: 50px 0px 0px 200px;
+}
+#container header nav ul {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'MS Sans Serif', sans-serif, Verdana, Arial;
+}
+#container header nav ul li {
+  float: left;
+  margin: 0px 10px;
+}
+#container header nav ul li a {
+  color: #ffffff;
+}
+#container header nav ul li .nav_aktif {
+  color: #000000;
+}
+#container header nav ul li:hover > a {
+  color: #000000;
+}
+#container section {
+  width: 960px;
+  height: auto;
+}
+#container section #slider {
+  width: 700px;
+  height: 300px;
+  overflow: hidden;
+  padding: 0px 130px;
+}
+#container section #slider #slider_resim {
+  width: 700px;
+  height: 250px;
+  overflow: hidden;
+  border: 4px solid #000000;
+}
+#container section #slider #slider_resim .slider_resim {
+  width: 4500px;
+  height: 250px;
+}
+#container section #slider #slider_resim .slider_resim li {
+  float: left;
+}
+#container section #slider #slider_resim .slider_resim li img {
+  width: 700px;
+  height: 250px;
+}
+#container section #slider #slider_buton {
+  margin: 0px auto;
+  width: 200px;
+  height: 25px;
+  padding: 5px 10px;
+  background-image: url("images/icons/slider_buton_bg.png");
+}
+#container section #slider #slider_buton #onceki a {
+  float: left;
+  margin: 0px 10px;
+}
+#container section #slider #slider_buton #onceki a img {
+  width: 20px;
+  height: 25px;
+}
+#container section #slider #slider_buton #sayfalar a {
+  opacity: 0.3;
+  margin: 0px 1px ;
+  float: left;
+  width: 20px;
+  height: 20px;
+  background-color: dodgerblue;
+  border-radius: 50px;
+  border: 1px solid white;
+}
+#container section #slider #slider_buton #sayfalar .aktif {
+  opacity: 1;
+  margin: 0px 1px ;
+  float: left;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: #ff0000;
+}
+#container section #slider #slider_buton #sonraki a {
+  float: left;
+  margin: 0px 10px;
+}
+#container section #slider #slider_buton #sonraki a img {
+  width: 20px;
+  height: 25px;
+}
+#container section #sosyal_medya {
+  width: 200px;
+  height: 250px;
+  float: left;
+  margin-left: -150px;
+}
+#container section #sosyal_medya ul {
+  width: 200px;
+  height: auto;
+  position: fixed;
+}
+#container section #sosyal_medya ul li {
+  width: 150px;
+  height: 50px;
+  transition: all 1s;
+}
+#container section #sosyal_medya ul li a em {
+  float: left;
+}
+#container section #sosyal_medya ul li a h3 {
+  padding-left: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  visibility: hidden;
+}
+#container section #sosyal_medya ul li:hover {
+  margin-left: -100px;
+}
+#container section #sosyal_medya ul li:hover a > h3 {
+  visibility: visible;
+}
+#container section #sol_alan {
+  float: left;
+  width: 650px;
+  height: auto;
+  background-color: #fafad2;
+}
+#container section #sol_alan article {
+  width: 600px;
+  height: auto;
+  margin-top: 50px;
+  box-shadow: #555 0px 0px 8px;
+  padding: 20px 25px;
+  background-color: #ffffff;
+}
+#container section #sol_alan article h1 {
+  color: indianred;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: tahoma, arial, sans-serif;
+}
+#container section #sol_alan article p.bilgi {
+  font-size: 20px;
+  font-weight: bold;
+}
+#container section #sol_alan article p.bilgi span {
+  margin-left: 150px;
+}
+#container section #sol_alan article p.bilgi em {
+  margin-left: 50px;
+}
+#container section #sol_alan article p.ozet {
+  text-indent: 20px;
+  font-size: 20px;
+}
+#container section #sol_alan article input {
+  margin: 0 175px;
+  width: 200px;
+  height: 50px;
+  background-color: darkslategray;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 5px;
+}
+#container section #sol_alan #sayfalama {
+  width: 650px;
+  height: 50px;
+  margin-top: 20px;
+}
+#container section #sol_alan #sayfalama ul.sayfalama {
+  margin: 0 auto;
+  width: 550px;
+  padding: 10px 0 0 0;
+  clear: left;
+}
+#container section #sol_alan #sayfalama ul.sayfalama li {
+  width: 40px;
+  height: 40px;
+  font: bold 12px Tahoma, Geneva, sans-serif;
+  color: #000000;
+  float: left;
+  list-style: none;
+  margin: 0 2px;
+  background-color: #ff4500;
+}
+#container section #sol_alan #sayfalama ul.sayfalama li a {
+  text-align: center;
+  font: bold 15px Tahoma, Geneva, sans-serif;
+  color: #000000;
+  text-decoration: none;
+  background-color: #e2e2e2;
+  padding: 5px 8px;
+  display: block;
+}
+#container section #sol_alan #sayfalama ul.sayfalama li a:hover {
+  background-color: #005689;
+  color: #e2e2e2;
+}
+#container section #sol_alan #sayfalama ul.sayfalama li .sayfalama_aktif {
+  background-color: #005689;
+  color: #e2e2e2;
+}
+#container section #sag_alan {
+  float: right;
+  width: 250px;
+  height: auto;
+}
+#container section #sag_alan #arama {
+  width: 250px;
+  height: 50px;
+  background-color: whitesmoke;
+}
+#container section #sag_alan #arama form {
+  width: 240px;
+  padding: 5px;
+}
+#container section #sag_alan #arama form input.textbox {
+  width: 190px;
+  height: 40px;
+  border-radius: 5px;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+#container section #sag_alan #arama form input.button {
+  width: 50px;
+  height: 40px;
+  background-color: darkslategray;
+  float: left;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+#container section #sag_alan #kategori {
+  width: 250px;
+  height: auto;
+  margin-top: 10px;
+}
+#container section #sag_alan #kategori h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff4500;
+}
+#container section #sag_alan #kategori ul li {
+  text-align: right;
+  width: 250px;
+  height: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+#container section #sag_alan #kategori ul li a {
+  transition: all 1s;
+}
+#container section #sag_alan #kategori ul li:hover > a {
+  margin-right: 50px;
+  color: #ff4500;
+}
+#container section #sag_alan #populer_konular {
+  margin-top: 20px;
+  width: 250px;
+  height: 500px;
+}
+#container section #sag_alan #populer_konular h1 {
+  color: #ff4500;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+#container section #sag_alan #populer_konular ul {
+  width: 200px;
+  height: 500px;
+  margin-left: 50px;
+}
+#container section #sag_alan #populer_konular ul li {
+  transition: all 1s;
+  margin-top: 10px;
+  width: 250px;
+  height: auto;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: tahoma, arial, sans-serif;
+  list-style: circle;
+}
+#container section #sag_alan #populer_konular ul li a {
+  transition: all 1s;
+}
+#container section #sag_alan #populer_konular ul li:hover > a {
+  color: #ff4500;
+}
+#container section #sag_alan #populer_konular ul li:hover {
+  margin-left: 50px;
+}

@@ -1,0 +1,111 @@
+@arkaplan_Renk:#fafad2;
+body{background-color:@arkaplan_Renk}
+#container{width: 960px;height: auto;margin: 0px auto;
+    header{width: 960px;height: 100px;background-color:tan;
+          #logo{float: left;width:300px;height: 100px;}
+          nav{float: left;width:460px;height: 50px;margin:50px 0px 0px 200px;
+               ul{font-size: 20px;font-weight: bold;font-family: 'MS Sans Serif', sans-serif, Verdana, Arial;
+                  li{float: left;margin:0px 10px;
+                    a{color: #ffffff}
+                    .nav_aktif{color: #000000}
+                    &:hover>a{color: #000000}
+                  }
+                }
+             }
+          }
+
+
+    section{width: 960px;height: auto;
+        #slider{width: 700px;height: 300px;overflow: hidden;padding: 0px 130px;
+          #slider_resim{width: 700px;height:250px;overflow: hidden;border: 4px solid #000000;
+            .slider_resim{width:4500px;height: 250px;
+              li{float: left;
+               img{width:700px;height:250px}
+              }
+            }
+          }
+          #slider_buton{margin:0px auto;width:200px;height:25px;padding: 5px 10px;background-image: url("images/icons/slider_buton_bg.png");
+              #onceki{
+                a{float: left;margin: 0px 10px;
+                  img{width: 20px;height: 25px;}
+                }
+              }
+              #sayfalar{
+                a{opacity: 0.3;margin:0px 1px ;float: left;width: 20px;height: 20px;background-color:lightgray;border-radius:50px;border:1px solid white;}
+                .aktif{opacity: 1;margin:0px 1px ;float: left;width: 20px;height: 20px;border-radius:50px;border:1px solid white;background-color:red}
+              }
+              #sonraki{
+                a{float: left;margin: 0px 10px;
+                  img{width: 20px;height: 25px}
+                }
+              }
+          }
+        }
+
+      #sosyal_medya{width:200px;height: 250px;float: left;margin-left:-150px;
+        ul{width:200px;height: auto;position: fixed;
+          li{width:150px;height: 50px;transition: all 1s;
+            a{
+              em{float: left}
+              h3{padding-left: 50px;font-size:22px;font-weight: bold;visibility: hidden}
+            }
+            &:hover{margin-left: -100px}
+            &:hover a>h3{visibility: visible}
+          }
+        }
+      }
+
+      #sol_alan{float: left;width:650px;height:auto;background-color:#fafad2;
+        article{width: 600px;height:auto;margin-top: 50px;box-shadow: #555 0px 0px 8px;padding: 20px 25px;background-color: #ffffff;
+          h1{color: indianred;text-align: center;font-size: 30px;font-weight: bold;font-family: tahoma, arial, sans-serif}
+          p.bilgi{font-size: 20px;font-weight: bold;
+            span{margin-left: 150px}
+            em{margin-left: 50px}
+          }
+          p.ozet{text-indent: 20px;font-size:20px;}
+          input{margin: 0 175px;width: 200px;height:50px;background-color:darkslategray;color: #ffffff;font-weight: bold;font-size: 25px;border-radius: 5px}
+        }
+        #sayfalama{width:650px;height:50px;margin-top: 20px;
+          ul.sayfalama{margin:0 auto;width:550px;padding:10px 0 0 0;clear:left;
+            li{width:40px;height:40px;font:bold 12px Tahoma, Geneva, sans-serif;color: #000000;float:left;list-style:none;margin:0 2px;background-color: #ff4500;
+              a{text-align: center;font:bold 15px Tahoma, Geneva, sans-serif;color: #000000;text-decoration:none;background-color:#e2e2e2;padding:5px 8px;display:block;
+                &:hover{background-color:#005689;color:#e2e2e2;}
+              }
+              .sayfalama_aktif{background-color:#005689;color:#e2e2e2;}
+            }
+          }
+        }
+      }
+
+      #sag_alan{float: right;width:250px;height: auto;
+        #arama{width: 250px;height: 50px;background-color:whitesmoke;
+          form{width: 240px;padding: 5px;
+          input.textbox{width: 190px;height: 40px;border-radius: 5px;float: left;font-size: 20px;font-weight: bold}
+          input.button{width: 50px;height: 40px;background-color:darkslategray;float: left;border-bottom-right-radius: 5px;border-top-right-radius: 5px;font-size: 20px;font-weight: bold;color: white}
+          }
+        }
+        #kategori{width: 250px;height:auto;margin-top: 10px;
+            h1{text-align: center;font-size:30px;font-weight: bold;color:#ff4500}
+            ul{
+              li{text-align: right;width: 250px;height: 30px;font-size: 25px;font-weight: bold;padding: 10px 0px;
+                a{transition: all 1s;}
+                &:hover>a{margin-right: 50px;color:orangered}
+              }
+            }
+        }
+        #populer_konular{margin-top: 20px;width: 250px;height: 500px;
+          h1{color: #ff4500;text-align: center;font-size:30px;font-weight: bold;}
+          ul{width: 200px;height: 500px;margin-left: 50px;
+            li{transition:all 1s;margin-top: 10px;width: 250px;height: auto;font-size:20px;font-weight: bold;font-family:tahoma, arial, sans-serif;list-style:circle;
+              a{transition:all 1s;}
+              &:hover>a{color: #ff4500;}
+              &:hover{margin-left:50px}
+            }
+          }
+        }
+        #son_yorumlar{}
+
+
+      }
+    }
+}
